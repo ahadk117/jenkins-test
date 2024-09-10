@@ -1,11 +1,14 @@
-public class Main{
-    public static void main(String[] args){
-System.out.println("this is java program");  
-System.out.println("this is java program 2 ");  
-System.out.println("this is java program 3");  
-System.out.println("this is java program 4");  
-System.out.println("this is java program 5");  
-     }
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("This is a third Java program");
+        Student student = new Student();
+        student.studentName();  
+    }
 }
 
-//dd
+class Student {
+    public void studentName() {
+        System.out.println("Ahad Khalid");
+    }
+}
